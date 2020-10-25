@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+- file: about.html
+- author: Eve Cho, eec5213
+- description: links to index.html; page me, the creator
+-->
+<html lang=en id="page">
+    <!-- header info -->
+    <head>
+        <title>About Me | NYC</title>
+        <meta charset="utf-8">
+        <script src="../assets/javascript.js"></script>
+        <link rel="stylesheet" href="../assets/styles.css">
+    </head>
+    
+    <!-- nav bar -->
+    <div id="nav" class="nav">
+        <span class="close" onclick="closeNav()">&times;</span>
+        <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="logo_nav">
+        
+        <a href="../index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="food.html">Dining</a>
+        <div class="dropdown">
+            <a class="dropbtn">Things to Do</a>
+            <div class="dd-content">
+                <a href="activities.html">Activities</a>
+                <a href="attr.html">Attractions</a>
+                <a href="central.html">Central Park</a>
+                <a href="gall.html">Galleries</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">Planning Your Stay</a>
+            <div class="dd-content">
+                <a href="maps.html">Maps</a>
+                <a href="tips.html">Travel Tips</a>
+                <a href="seasons.html">Seasonal Tips</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">About</a>
+            <div class="dd-content">
+                <a href="about.html">About Me/Contact</a>
+                <a href="criteria.html">Criteria</a>
+                <a href="cite.html">Resources</a>
+            </div>
+        </div>
+        <img src="../assets/images/toggle_key.png" id="toggle1" onclick="mode()">
+        
+    </div>
+        
+    <body>
+        <!-- actual content part -->
+        <div id="main" class="main">
+            <span class="menu" onclick="openNav()">
+                &#9776; 
+            </span>
+            <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="alt_logo">
+            <img src="../assets/images/toggle_key.png" id="toggle2" onclick="mode()">
+            
+            <button id="toTop" onclick="top()" title="return to top"><img id="arrow" src="../assets/images/up_arrow.png"></button>
+            
+            <h1 class="header">From the Creator</h1>
+            <img src="../assets/images/its-me.jpg" id="profile" title="Selfie of me" alt="Photo of Eve Cho">
+            <h3>Eve Cho, New York resident and RIT Student</h3>
+            <p>My name is Eve Cho, and I am currently a 3rd year Computer Science student at RIT. I've been a resident of New York State for 16 years and counting, and live just an hour outside NYC via metropolitan transit.</p>
+            <p>This website is a cumulation of my personal knowledge of the city, as well as additional research and places I still plan on visiting (but am currently unable to do so due to the nature of the pandemic). I myself have learned through trial and error the ways to efficiently navigate the city, first as a 'tourist' and later as someone more familiar with the environment.</p>
+            <p>Apart from figuring out how to find my way around the city, my friends and I are also massive foodies, and are always looking for new places to eat in the city, sometimes even stumbling into a pleasantly surprisingly hole-in-the-wall restaurant. From sweets to savories, moody restaurants or chic cafes, and ranging from $ to $$$$, we're determined to try all the various ethnic foods the city takes pride in.</p>
+            <p>I hope that this guide offers you some guidance on your trip to NYC, whether it helped out a lot or only provided a few places to take note of.</p>
+            
+            <h3>Contact Point</h3>
+            <p>For any additional information or questions, feel free to contact me at <a href="mailto:eec5213@rit.edu" class="email">eec5213@rit.edu</a></p>
+            
+            <!-- footer info -->
+            <hr>
+            <footer>Eve Cho &copy;2020 | <a href="../../index.html">Student Homepage</a></footer>  
+        </div>
+           
+    </body>
+</html>
