@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+- file: history.html
+- author: Eve Cho, eec5213
+- description: links to index.html; page regarding the history of NYC
+-->
+<html lang=en id="page">
+    <!-- header info -->
+    <head>
+        <title>Traveling | NYC</title>
+        <meta charset="utf-8">
+        <script src="../assets/javascript.js"></script>
+        <link rel="stylesheet" href="../assets/styles.css">
+    </head>
+    
+    <!-- nav bar -->
+    <div id="nav" class="nav">
+        <span class="close" onclick="closeNav()">&times;</span>
+        <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="logo_nav">
+        
+        <a href="../index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="food.html">Dining</a>
+        <div class="dropdown">
+            <a class="dropbtn">Things to Do</a>
+            <div class="dd-content">
+                <a href="activities.html">Activities</a>
+                <a href="attr.html">Attractions</a>
+                <a href="central.html">Central Park</a>
+                <a href="gall.html">Galleries</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">Planning Your Stay</a>
+            <div class="dd-content">
+                <a href="maps.html">Maps</a>
+                <a href="tips.html">Travel Tips</a>
+                <a href="seasons.html">Seasonal Tips</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">About</a>
+            <div class="dd-content">
+                <a href="about.html">About Me/Contact</a>
+                <a href="criteria.html">Criteria</a>
+                <a href="cite.html">Resources</a>
+            </div>
+        </div>
+        <img src="../assets/images/toggle_key.png" id="toggle1" onclick="mode()">
+        
+    </div>
+        
+    <body>
+        <!-- actual content part -->
+        <div id="main" class="main">
+            <span class="menu" onclick="openNav()">
+                &#9776; 
+            </span>
+            <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="alt_logo">
+            <img src="../assets/images/toggle_key.png" id="toggle2" onclick="mode()">
+            
+            <button id="toTop" onclick="top()" title="return to top"><img src="../assets/images/up_arrow.png"></button>
+            
+            <h1 class="header">Travel Hacks at Your Fingertips</h1>
+            <p>Bad at directions? Or perhaps, you might be excellent at directions. No matter what, newcomers will surely have a hard time navigating the streets. These tips will help you have a less difficult time finding your way around Manhattan, tourist central and the most well-known of NYC's Five Boroughs.</p>
+            <h3>Tips For:</h3>
+            <h4>Traveling by Foot</h4>
+            <p>Walking is extremely common in NYC, and at many times prime tourist spots like Times Square are heavily filled with foot traffic. Make sure to stick to the right-hand side on the sidewalks; you may already know this, but it's even more so important in busy areas so you don't end up getting caught in a crowd of people.</p>
+            <p>You may notice that all the streets are just numbers, and they're either Avenues or Streets. So what's the difference? Streets run horizontally from East to West, and increase in street number as you walk from South towards Uptown NYC. At a casual to brisk pace it easily takes less than a minute to move from one street to the next (along an Avenue). Avenues on the other hand, run vertically from North to South, with the Avenue number increasing as you walk from East to West across Manhattan. The average walker takes more or less than about 5 minutes to traverse from one avenue along to the next (walking along a street that connects the two) </p>
+            <p>There are of course, streets that have specific names; many of them are far, far South in Manhattan, or are a major road that cuts through the entirety of the city and connects important points.</p>
+            <p>Something else to note when walking throught the Street/Avenue areas is that Manhattan is a place that is almost completely gridded, meaning that streets are almost always very linear and structured in rectangles. You can certainly use this to your advantage when walking and cut away from any busy areas to get to your destination faster.</p>
+            
+            <h4>Traveling by Subway (the Metro)</h4>
+            <p>In New York City, a primary mode of transportation are the subways (better known in some parts of the world as 'metro' trains).</p>
+            
+            <!-- footer info -->
+            <hr>
+            <footer>Eve Cho &copy;2020 | <a href="../../index.html">Student Homepage</a></footer>  
+        </div>
+           
+    </body>
+</html>

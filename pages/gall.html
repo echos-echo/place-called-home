@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+- file: history.html
+- author: Eve Cho, eec5213
+- description: links to index.html; page regarding the history of NYC
+-->
+<html lang=en id="page">
+    <!-- header info -->
+    <head>
+        <title>Galleries | NYC</title>
+        <meta charset="utf-8">
+        <script src="../assets/javascript.js"></script>
+        <link rel="stylesheet" href="../assets/styles.css">
+    </head>
+    
+    <!-- nav bar -->
+    <div id="nav" class="nav">
+        <span class="close" onclick="closeNav()">&times;</span>
+        <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="logo_nav">
+        
+        <a href="../index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="food.html">Dining</a>
+        <div class="dropdown">
+            <a class="dropbtn">Things to Do</a>
+            <div class="dd-content">
+                <a href="activities.html">Activities</a>
+                <a href="attr.html">Attractions</a>
+                <a href="central.html">Central Park</a>
+                <a href="gall.html">Galleries</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">Planning Your Stay</a>
+            <div class="dd-content">
+                <a href="maps.html">Maps</a>
+                <a href="tips.html">Travel Tips</a>
+                <a href="seasons.html">Seasonal Tips</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">About</a>
+            <div class="dd-content">
+                <a href="about.html">About Me/Contact</a>
+                <a href="criteria.html">Criteria</a>
+                <a href="cite.html">Resources</a>
+            </div>
+        </div>
+        <img src="../assets/images/toggle_key.png" id="toggle1" onclick="mode()">
+        
+    </div>
+        
+    <body>
+        <!-- actual content part -->
+        <div id="main" class="main">
+            <span class="menu" onclick="openNav()">
+                &#9776; 
+            </span>
+            <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="alt_logo">
+            <img src="../assets/images/toggle_key.png" id="toggle2" onclick="mode()">
+            
+            <button id="toTop" onclick="top()" title="return to top"><img src="../assets/images/up_arrow.png"></button>
+            
+            <h1 class="header">Exhibits and Museums and Galleries, Oh My!</h1>
+            <p>New York City has so many art galleries. So, so many. The few below are only a mere taste of what types of pieces the city has to offer.</p>
+            <div class="gallery">
+                <h3>Metropolitan Museum of Art</h3>
+                <figure>
+                        <img src="../assets/images/met_museum.jpg">
+                        <figcaption><cite>Photo courtesy of CNTraveler</cite></figcaption>
+                </figure>
+                <p>The Metropolitan Museum of Art, commonly referred to as The MET, is one of the primary art museums in the city. </p>
+                <h3>The Cloisters</h3>
+                <figure>
+                        <img src="../assets/images/cloisters.jpg">
+                        <figcaption><cite>Photo by Brett Beyer</cite></figcaption>
+                </figure>
+                <p>The Cloisters is a subdivision of the MET museum system, althought located far uptown near the Bronx. The Cloisters is the first and currently still the only architectural exhibit in New York City, with the estate featuring various architectural designs and techniques, as well as exhibit rooms featuring work from the MET.</p>
+                <h3>Solomon R. Guggenheim Museum</h3>
+                <figure>
+                        <img src="../assets/images/guggenheim.jpg">
+                        <figcaption><cite>Photo by David Heald</cite></figcaption>
+                </figure>
+                <p>Another art museum, the Guggenheim is unique for a museum. Rather than the structured and block like room structure that most museums have, the Guggenheim has a circular ramp creeping up along the sides of the main room, leaving a large empty space in the middle for the sun roof to let in plenty of natural light.</p>
+                <h3>Museum of the Moving Image</h3>
+                <figure>
+                        <img src="../assets/images/moving_image.jpg">
+                        <figcaption><cite>Photo by Peter Aaron</cite></figcaption>
+                </figure>
+                <p>The Museum of the Moving Image may pique the interest of children a bit more than mere art museums. This museum features the history of moving images: movies and animations alike. In addition, it features many private short films as well as hands on activities to really understand how films work.</p>
+                <h3>Museum of Ice Cream</h3>
+                <figure>
+                        <img src="../assets/images/museum_ice_cream_inside.jpg">
+                        <figcaption><cite>Photo courtesy of Museum of Ice Cream</cite></figcaption>
+                </figure>
+                <p>Do you like ice cream? Say no more. The Museum of Ice Cream which once used to be a pop up, has finally settled into a permanent location. Featuring a small gallery, you'll be able to interact with some displays, as well as get some ice cream samples before you're back on your way through the big city.</p>
+            </div>
+            <!-- footer info -->
+            <hr>
+            <footer>Eve Cho &copy;2020 | <a href="../../index.html">Student Homepage</a></footer>  
+        </div>
+           
+    </body>
+</html>

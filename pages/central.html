@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+- file: history.html
+- author: Eve Cho, eec5213
+- description: links to index.html; page regarding the history of NYC
+-->
+<html lang=en id="page">
+    <!-- header info -->
+    <head>
+        <title>Central Park | NYC</title>
+        <meta charset="utf-8">
+        <script src="../assets/javascript.js"></script>
+        <link rel="stylesheet" href="../assets/styles.css">
+    </head>
+    
+    <!-- nav bar -->
+    <div id="nav" class="nav">
+        <span class="close" onclick="closeNav()">&times;</span>
+        <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="logo_nav">
+        
+        <a href="../index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="food.html">Dining</a>
+        <div class="dropdown">
+            <a class="dropbtn">Things to Do</a>
+            <div class="dd-content">
+                <a href="activities.html">Activities</a>
+                <a href="attr.html">Attractions</a>
+                <a href="central.html">Central Park</a>
+                <a href="gall.html">Galleries</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">Planning Your Stay</a>
+            <div class="dd-content">
+                <a href="maps.html">Maps</a>
+                <a href="tips.html">Travel Tips</a>
+                <a href="seasons.html">Seasonal Tips</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">About</a>
+            <div class="dd-content">
+                <a href="about.html">About Me/Contact</a>
+                <a href="criteria.html">Criteria</a>
+                <a href="cite.html">Resources</a>
+            </div>
+        </div>
+        <img src="../assets/images/toggle_key.png" id="toggle1" onclick="mode()">
+        
+    </div>
+        
+    <body>
+        <!-- actual content part -->
+        <div id="main" class="main">
+            <span class="menu" onclick="openNav()">
+                &#9776; 
+            </span>
+            <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="alt_logo">
+            <img src="../assets/images/toggle_key.png" id="toggle2" onclick="mode()">
+            
+            <button id="toTop" onclick="top()" title="return to top"><img src="../assets/images/up_arrow.png"></button>
+            
+            <h1 class="header">The Quick Guide to Central Park</h1>
+            <img src="../assets/images/central_park_aerial.jpg" id="cp">
+            <cite>Photo by Sergio Souza</cite>
+            <p>You may think that having an entire page dedicated to Central Park may be a bit excessive, but do keep an open mind that Central Park physically amasses 6% of the entirety of Manhattan. It is the most frequented urban park in the country, and it's all thanks to the expert landscaping, meticulous upkeep, and variety of activities. Do be mindful that Central Park is a massive piece of land, and it can be easy to get lost if you do not stay aware of your surroundings.</p>
+            <div class="central">
+                <h3>Strawberry Fields</h3>
+                <figure>
+                        <img src="../assets/images/strawberry_fields.jpg">
+                        <figcaption><cite>Photo by Lana Law</cite></figcaption>
+                </figure>
+                <h3>Bow Bridge</h3>
+                <figure>
+                        <img src="../assets/images/central_park_bow_bridge.jpg">
+                        <figcaption><cite>Photo by Jean C. Emer</cite></figcaption>
+                </figure>
+                <h3>The Ramble</h3>
+                <figure>
+                        <img src="../assets/images/ramble.jpg">
+                        <figcaption><cite>Photo by Luke Spencer</cite></figcaption>
+                </figure>
+                <h3>Loeb Boathouse and The Lake</h3>
+                <figure>
+                        <img src="../assets/images/central_park_boats.jpg">
+                        <figcaption><cite>Photo by Yoav Aziz</cite></figcaption>
+                </figure>
+                <h3>Wagner's Cove</h3>
+                <figure>
+                        <img src="../assets/images/wagner_cove.jpeg">
+                        <figcaption><cite>Photo courtesy of Central Park</cite></figcaption>
+                </figure>
+                <h3>Bethesda Fountain and Terrace</h3>
+                <figure>
+                        <img src="../assets/images/bethesda_fountain.jpg">
+                        <figcaption><cite>Photo by Tommi Selander</cite></figcaption>
+                </figure>
+                <p></p>
+                <figure>
+                        <img src="../assets/images/bethesda_terrace.jpg">
+                        <figcaption><cite>Photo by Vlad Hilitanu</cite></figcaption>
+                </figure>
+            </div>
+            <!-- footer info -->
+            <hr>
+            <footer>Eve Cho &copy;2020 | <a href="../../index.html">Student Homepage</a></footer>  
+        </div>
+           
+    </body>
+</html>

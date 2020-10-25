@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+- file: history.html
+- author: Eve Cho, eec5213
+- description: links to index.html; page regarding the history of NYC
+-->
+<html lang=en id="page">
+    <!-- header info -->
+    <head>
+        <title>History | NYC</title>
+        <meta charset="utf-8">
+        <script src="../assets/javascript.js"></script>
+        <link rel="stylesheet" href="../assets/styles.css">
+    </head>
+    
+    <!-- nav bar -->
+    <div id="nav" class="nav">
+        <span class="close" onclick="closeNav()">&times;</span>
+        <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="logo_nav">
+        
+        <a href="../index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="food.html">Dining</a>
+        <div class="dropdown">
+            <a class="dropbtn">Things to Do</a>
+            <div class="dd-content">
+                <a href="activities.html">Activities</a>
+                <a href="attr.html">Attractions</a>
+                <a href="central.html">Central Park</a>
+                <a href="gall.html">Galleries</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">Planning Your Stay</a>
+            <div class="dd-content">
+                <a href="maps.html">Maps</a>
+                <a href="tips.html">Travel Tips</a>
+                <a href="seasons.html">Seasonal Tips</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">About</a>
+            <div class="dd-content">
+                <a href="about.html">About Me/Contact</a>
+                <a href="criteria.html">Criteria</a>
+                <a href="cite.html">Resources</a>
+            </div>
+        </div>
+        <img src="../assets/images/toggle_key.png" id="toggle1" onclick="mode()">
+    </div>
+        
+    <body>
+        <!-- actual content part -->
+        <div id="main" class="main">
+            <span class="menu" onclick="openNav()">
+                &#9776; 
+            </span>
+            <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="alt_logo">
+            <img src="../assets/images/toggle_key.png" id="toggle2" onclick="mode()">
+            
+            <button id="toTop" onclick="top()" title="return to top"><img src="../assets/images/up_arrow.png"></button>
+            
+            <h1 class="header">A Lesson in Time</h1>
+            <p>As a major city on the east coast, it's a given that New York City has decades and decades of history behind it. </p>
+            <cite>All information has been adapted from and thanks to "New York City" - History.com</cite>
+            <h3>The Starting Days</h3>
+            <p>While the first person to <i>discover</i> New York City was Giovanni da Verrazzano (for whom the Verrazzano Bridge is named), the first settlers were actually Dutch traders in 1624, and had settled on Governor's Island just off the shore of the Manhattan Island, naming it New Amsterdam. Only a couple of years later, the governor had purchased the island of Manhattan from the Algonquin Native Americans, and much of the settlement moved onto the newer, larger island.</p>
+            <p>Not even 50 years later, the British seized the city from the Dutch and renamed it to New York City. From there on, the city quickly exploded in both population and diversity. Immigrants ranged from Dutch, British, French, German, Italian, and of course, slaves.</p>
+            <h3>The Journey</h3>
+            <p>Did you know? In addition to Boston, MA, New York City also served as a massive center of activism before and during the American Revolution. Not only that, but it served as a major port city and played an important strategic role during the war.</p>
+            <p>Post-Revolution (1783), its role as a port city allowed it to recover quickly, and became a major hub of economy and commerce. By 1825, it had become a national trading capital, with a system of canals and riverways allowing goods to be easily transported to and from the city.</p>
+            <p>In 1811, the "Commissioner's Plan" took place; an infrastructural layout to establish a grid of streets and avenues, which NYC is especially known for today. During this time, the continuous influx of immigrants caused people to settle in ethnic enclaves. This allowed for business, unions, and social circles within distinct groups.</p>
+            <p>It was in 1895 when the call for all five regions, Manhattan, Bronx, Brooklyn, Queens, and Staten Island, to be consolidated into a larger five-borough city. By 1898, New York City encompassed 360 square miles and had a population of 3.35 millions people.</p>
+            <p>As we all know, WWII and the time period around it was difficult for America. In New York, the construction of suburban areas and highways after the war caused a shift in population as many people left the city and chose to settle in these new areas. However, the Hart-Cellar Immigration and Nationality Act of 1965 was established not long after. This allowed for immigrants from Asia, Africa, and other previously-restricted parts of the world to enter the country, and in turn revitalized communities that original residents had left.</p>
+            <h3>NYC, Today</h3>
+            <p>On September 11, 2001, New York City suffered what is known as the deadliest terrorist attack in the United States, as the twin towers of the World Trade Center came crashing down in downtown Manhattan. Thousands of lives were lost in the calamity, dozens of which are still unidentified or missing to this day.</p>
+            <p>After that event, New York City as an institution managed to recover quickly, and its foothold as the financial capital did not waver. Today, the site of the 9/11 tragedy has been memorialized and rebuilt into a new One World Trade Center.</p>
+            <p>Throughout the five boroughs of the city, there are over 8 millions residents of New York City, a good amount of which are first generation immigrants. The city remains vibrant both in ethnic and intellectual diversity, and allows it to thrive as a major center of culture in the USA.</p>
+            <!-- footer info -->
+            <hr>
+            <footer>Eve Cho &copy;2020 | <a href="../../index.html">Student Homepage</a></footer>  
+        </div>
+           
+    </body>
+</html>

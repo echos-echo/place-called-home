@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+- file: history.html
+- author: Eve Cho, eec5213
+- description: links to index.html; page regarding the history of NYC
+-->
+<html lang=en id="page">
+    <!-- header info -->
+    <head>
+        <title>Dining | NYC</title>
+        <meta charset="utf-8">
+        <script src="../assets/javascript.js"></script>
+        <link rel="stylesheet" href="../assets/styles.css">
+    </head>
+    
+    <!-- nav bar -->
+    <div id="nav" class="nav">
+        <span class="close" onclick="closeNav()">&times;</span>
+        <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="logo_nav">
+        
+        <a href="../index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="food.html">Dining</a>
+        <div class="dropdown">
+            <a class="dropbtn">Things to Do</a>
+            <div class="dd-content">
+                <a href="activities.html">Activities</a>
+                <a href="attr.html">Attractions</a>
+                <a href="central.html">Central Park</a>
+                <a href="gall.html">Galleries</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">Planning Your Stay</a>
+            <div class="dd-content">
+                <a href="maps.html">Maps</a>
+                <a href="tips.html">Travel Tips</a>
+                <a href="seasons.html">Seasonal Tips</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">About</a>
+            <div class="dd-content">
+                <a href="about.html">About Me/Contact</a>
+                <a href="criteria.html">Criteria</a>
+                <a href="cite.html">Resources</a>
+            </div>
+        </div>
+        <img src="../assets/images/toggle_key.png" id="toggle1" onclick="mode()">
+        
+    </div>
+        
+    <body>
+        <!-- actual content part -->
+        <div id="main" class="main">
+            <span class="menu" onclick="openNav()">
+                &#9776; 
+            </span>
+            <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="alt_logo">
+            <img src="../assets/images/toggle_key.png" id="toggle2" onclick="mode()">
+            
+            <button id="toTop" onclick="top()" title="return to top"><img src="../assets/images/up_arrow.png"></button>
+            
+            <h1 class="header">Foodie Paradise</h1>
+            <p>New York City is famous not only for the sights to see, but for the plethora of ethnics foods that are available all in this one city. This list is only a handful of the many food places the city has to offer it's weary travelers and residents. I've included a few savory, and at the bottom of the list a couple of sweets! For the sake of tourism and limiting a lot of travel, most of these locations are in Manhattan or Western Brooklyn.</p>
+            <div class="food">
+                <h3>Chelsea Market</h3>
+                <figure>
+                    <img src="../assets/images/chelsea_market.jpeg">
+                    <figcaption><cite>Photo courtesy of Chelsea Market</cite></figcaption>
+                </figure>
+                <p>Surely, you've at least heard of Chelsea Market. It's an internationally acclaimed marketplace located on the lower west side, and is considered one of the greatest indoor food marketplaces to this day. Food in this marketplace ranges from Mexican, Japanese, Italian, French, Jamaican, and Chinese, and has vendors that offer both full meals as well as smaller treats.</p>
+                <p>Not only is the food prepared here excellent, but you wouldn't want to miss out on the marketplace either. Filled with fresh fish, prime meat cuts, artisanal cheese, imported goods, wines, and other fresh produce, you're sure to find some food or meal here that you'll like.</p>
+                <p>However, be warned. Even on weekdays, the marketplace can become packed with tourists and locals alike, and it may be difficult for you to catch whatever meal you may have been planning. Keep an open mind in Chelsea Market, and if your plans happen to go awry there are plenty of top notch vendors to choose from.</p>
+                <h3>Halal Guys</h3>
+                <figure>
+                    <img src="../assets/images/halal.jpg">
+                    <figcaption><cite>Photo by Sarah Anderson</cite></figcaption>
+                </figure>
+                <p>Everyone local to NYC has at least of heard of the Halal Guys before. They're a legendary street food stand around the city, popularizing halal food and bringing delicious meals to people for inexpensive prices.</p>
+                <p>Be warned that if you are really not good with spice, then perhaps consider another food item.</p>
+                <h3>Xian Famous Foods</h3>
+                <figure>
+                    <img src="../assets/images/xian_famous.jpg">
+                    <figcaption><cite>Photo by Cole Saladino</cite></figcaption>
+                </figure>
+                <p>Another spice lover's ideal, Xian Famous Foods is a Chinese restaurant with locations both in the Upper East Side of Manhattan and throughout Queens. A menu favorite is their spicy cumin lamb dish, pictured above. </p>
+                <p>Similar to Halal Guys, Xian's is not a complicated or over the top fancy place. These are simple, but delicious meals in which it is evident that there was effort put into the food.</p>
+                <h3>Kyma + Elea</h3>
+                <figure>
+                    <img src="../assets/images/kyma_1.jpg">
+                    <figcaption><cite>Photo courtesy of Timeout</cite></figcaption>
+                </figure>
+                <p>If you're looking for some Mediterranean food, look no further. Kyma is a Greek restaurant located right in the heart of the Flatiron District just a bit South of midtown Manhattan. The dishes are all made to order, and ingredients are all fresh (and sourced from the Mediterranean if possible!). Kyma is nowhere near street food style, as the refined dining aura and arrangement of the interior would say. It's also clear that Kyma is not grossly expensive, but is certainly a bit pricy for what most people would spend on a meal</p>
+                <p>Due to Kyma's overwhelming popularity and support, the franchise has opened a new but separate branch in uptown Manhattan called Elea. In terms of the menu, they serve more or less the same items. But Elea's storefront has a much brighter demeanor, and is designed to be more family-oriented whereas Kyma may be for couples or small groups.</p>
+                <h3>Kang Ho Dong Baekjeong</h3>
+                <figure>
+                    <img src="../assets/images/kanghodong_food.jpg">
+                    <figcaption><cite>Photo by Paul Wagtouicz</cite></figcaption>
+                </figure>
+                <p>The term KBBQ is not new to most people due to the wave of Korean culture that has washed over America in the past decade. And NYC is certainly no stranger to it as well. Kang Ho Dong Baekjeong is a top tier KBBQ location both right in Midtown NYC (very easy for traveling) as well as Queens. However, do keep in mind that KBBQ is not a cheap meal, and this restaurant is no exception to the pricy meat.</p>
+                <h3>Ippudo NY</h3>
+                <figure>
+                    <img src="../assets/images/ippudo_2.jpg">
+                    <figcaption><cite>Photo courtesy of Ippudo NY</cite></figcaption>
+                </figure>
+                <p>Ippudo Ramen, already famous within Japan, is a well-known ramen chain with locations in countless cities across the globe, including NYC. They are famous for thei tonkotsu-style ramen, a ramen with rich and creamy pork broth. While this is the star of their menu, they do feature some vegetarian items as well. Do be aware that all their ramens contain small amounts of sesame oil, and any strong allergies will be triggered if consumed.</p>
+                <p>Ippudo has three locations within NYC: two in midtown and one further South. If you're a ramen lover, definitely make note of this store to come by if you're in town.</p>
+                <h3>Ume Williamsburg</h3>
+                <figure>
+                    <img src="../assets/images/ume_sushi.jpg">
+                    <figcaption><cite>Photo by Lydia Keki</cite></figcaption>
+                </figure>
+                <p>If you're a huge sushi fan, it may be worth it to take a short trek across the Brooklyn Bridge to go into Ume Williamsburg for a meal. A mixture of both fusion and traditional style pieces, this sushi restaurant offers an "omakase" type meal, meaning that it consists of a large variety of small and unique sushi pieces rather than eating several of the same piece.</p>
+                <p>The delicious food aside, the restaurant itself has a more traditional Japanese ambiance. There are low tables and all the customers are required to partake in the floor seating. The wooden build of the interior, as well as the small outdoor garden connected to the restaurant allow customers a semblance of peace amidst their otherwise busy day. </p>
+                <h3>Grace Street</h3>
+                <figure>
+                    <img src="../assets/images/grace_street_food.jpeg">
+                    <figcaption><cite>Photo courtesy of Grace Street</cite></figcaption>
+                </figure>
+                <p>Located at the heart of K-town, simultaneously at the center of midtown, is Grace Street. An instagram-worthy and chic cafe, the menu is pricier than what most people would be willing to spend, but the food isn't just all looks: the freshness and ingredients are top-tier as well. During the summer, it is especially nice to go in with a friend and share a shaved ice dish, or perhaps grab a sweet brunch of waffles. Do be aware that during peak meal hours and weekends, Grace Street becomes packed quickly and may require sitting in. But this is no big issue, as it's a quirky and lovely interior as well. With unique art pieces decorating the inside, you may find yourself taking some time to catch up on work, social media, read a book, or just chill out for a bit.</p>
+                <h3>Spot Dessert Bar</h3>
+                <figure>
+                    <img src="../assets/images/spot_dessert_3.jpg">
+                    <figcaption><cite>Photo courtesy of Manhattan Sideways</cite></figcaption>
+                </figure>
+                <p>From cupcakes, macarons, cookies, and bubble tea, Spot Dessert Bar has quickly become a local favorite. The desserts are presented in immensely immaculate forms, but the quality does not lack at all either. Following the changing of seasons, their featured menu items change every few months as the weather changes. It's a quaint little cafe, and the owner loves to constantly experiment with new possible recipes as well as keep a keen eye on the combination of the interior decor with their food.</p>
+            </div>
+            <!-- footer info -->
+            <hr>
+            <footer>Eve Cho &copy;2020 | <a href="../../index.html">Student Homepage</a></footer>  
+        </div>
+           
+    </body>
+</html>

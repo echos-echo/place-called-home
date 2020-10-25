@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+- file: history.html
+- author: Eve Cho, eec5213
+- description: links to index.html; page regarding the history of NYC
+-->
+<html lang=en id="page">
+    <!-- header info -->
+    <head>
+        <title>Seasonal Tips | NYC</title>
+        <meta charset="utf-8">
+        <script src="../assets/javascript.js"></script>
+        <link rel="stylesheet" href="../assets/styles.css">
+    </head>
+    
+    <!-- nav bar -->
+    <div id="nav" class="nav">
+        <span class="close" onclick="closeNav()">&times;</span>
+        <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="logo_nav">
+        
+        <a href="../index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="food.html">Dining</a>
+        <div class="dropdown">
+            <a class="dropbtn">Things to Do</a>
+            <div class="dd-content">
+                <a href="activities.html">Activities</a>
+                <a href="attr.html">Attractions</a>
+                <a href="central.html">Central Park</a>
+                <a href="gall.html">Galleries</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">Planning Your Stay</a>
+            <div class="dd-content">
+                <a href="maps.html">Maps</a>
+                <a href="tips.html">Travel Tips</a>
+                <a href="seasons.html">Seasonal Tips</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">About</a>
+            <div class="dd-content">
+                <a href="about.html">About Me/Contact</a>
+                <a href="criteria.html">Criteria</a>
+                <a href="cite.html">Resources</a>
+            </div>
+        </div>
+        <img src="../assets/images/toggle_key.png" id="toggle1" onclick="mode()">
+        
+    </div>
+        
+    <body>
+        <!-- actual content part -->
+        <div id="main" class="main">
+            <span class="menu" onclick="openNav()">
+                &#9776; 
+            </span>
+            <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="alt_logo">
+            <img src="../assets/images/toggle_key.png" id="toggle2" onclick="mode()">
+            
+            <button id="toTop" onclick="top()" title="return to top"><img src="../assets/images/up_arrow.png"></button>
+            
+            <h1 class="header">The Seasonal Guide to NYC</h1>
+            <p>Being a massive tourist city, foot traffic in NYC fluctuates greatly throughout the year. Not to mention, the weather loves to range from unbearably hot and humid to bone chilling freezing. There are definitely seasons and holidays where the city becomes far more packed, but there are also times of the year where the city hosts seasonally exclusive activities. Do check these out and consider them when planning your trip!</p>
+            <h6>Note: please be seasonally aware of the weather in NYC during your planned stay and pack weather appropriate clothes. Summers easily reach sweaty highs of 100 degrees fahrenheit, while winter can drop to -20 degrees fahrenheit and dangerously ice pathways over.</h6>
+            <div class="seasons">
+                <h3>Roosevelt Island Cherry Blossoms</h3>
+                <figure>
+                        <img src="../assets/images/roosevelt_island_cherry_blossoms.jpeg">
+                        <figcaption><cite>Photo courtesy of FDR Four Freedoms Park</cite></figcaption>
+                </figure>
+                <p>Perhaps the least known of seasonal pastimes in the big city, Roosevelt Island is a small island on the Hudson River lying between Manhattan and Queens. During as early as late March, the cherries that line Roosevelt Island bloom into a frenzy of petals, showering the island in a soft pink arrival of Spring.</p>
+                <h3>Wollman Rink in Central Park</h3>
+                <figure>
+                        <img src="../assets/images/central_park_wollman_rink.jpg">
+                        <figcaption><cite>Photo by Yomex Owo</cite></figcaption>
+                </figure>
+                <p>Part of Central Park, Wollman Rink is one of several rinks featured in the city, and always become bustling with skaters as the wintertime season rolls around.</p>
+                <h3>Rockefeller Center Rink and Christmas Tree</h3>
+                <figure>
+                        <img src="../assets/images/rockefeller_rink.jpeg">
+                        <figcaption><cite>Photo by Donald Traill</cite></figcaption>
+                </figure>
+                <p>Arguably the busiest and most crowded rink of all the ones in the city, Rockefeller Center is a trademark image of New York City, as well as the large Christmas tree that millions of tourists stop by to see year after year.</p>
+                <figure>
+                        <img src="../assets/images/rockefeller_tree.jpg">
+                        <figcaption><cite>Photo by Stefan Jeremiah</cite></figcaption>
+                </figure>
+                <h3>Bryant Park Winter Village and Christmas Tree</h3>
+                <figure>
+                        <img src="../assets/images/bryant_park_rink.jpg";>
+                        <figcaption><cite>Photo by Elizabeth Shrier</cite></figcaption>
+                </figure>
+                <p>Bryant Park winter village is an extravagant wintertime market for food and trinkets when the cold season rolls around. The food offered varies in taste and you're sure to find something if you come by during this time of year.</p>
+            </div>
+            <!-- footer info -->
+            <hr>
+            <footer>Eve Cho &copy;2020 | <a href="../../index.html">Student Homepage</a></footer>  
+        </div>
+           
+    </body>
+</html>

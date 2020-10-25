@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+- file: history.html
+- author: Eve Cho, eec5213
+- description: links to index.html; page regarding the history of NYC
+-->
+<html lang=en id="page">
+    <!-- header info -->
+    <head>
+        <title>Activities | NYC</title>
+        <meta charset="utf-8">
+        <script src="../assets/javascript.js"></script>
+        <link rel="stylesheet" href="../assets/styles.css">
+    </head>
+    
+    <!-- nav bar -->
+    <div id="nav" class="nav">
+        <span class="close" onclick="closeNav()">&times;</span>
+        <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="logo_nav">
+        
+        <a href="../index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="food.html">Dining</a>
+        <div class="dropdown">
+            <a class="dropbtn">Things to Do</a>
+            <div class="dd-content">
+                <a href="activities.html">Activities</a>
+                <a href="attr.html">Attractions</a>
+                <a href="central.html">Central Park</a>
+                <a href="gall.html">Galleries</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">Planning Your Stay</a>
+            <div class="dd-content">
+                <a href="maps.html">Maps</a>
+                <a href="tips.html">Travel Tips</a>
+                <a href="seasons.html">Seasonal Tips</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">About</a>
+            <div class="dd-content">
+                <a href="about.html">About Me/Contact</a>
+                <a href="criteria.html">Criteria</a>
+                <a href="cite.html">Resources</a>
+            </div>
+        </div>
+        <img src="../assets/images/toggle_key.png" id="toggle1" onclick="mode()">
+        
+    </div>
+        
+    <body>
+        <!-- actual content part -->
+        <div id="main" class="main">
+            <span class="menu" onclick="openNav()">
+                &#9776; 
+            </span>
+            <img src="../assets/images/title.png" alt="NYC" title="NYC logo" id="alt_logo">
+            <img src="../assets/images/toggle_key.png" id="toggle2" onclick="mode()">
+            
+            <button id="toTop" onclick="top()" title="return to top"><img src="../assets/images/up_arrow.png"></button>
+            
+            <h1 class="header">Looking for a Fun Activity?</h1>
+            <p>The city is big, and perhaps you don't know where to start. Here, let this guide give you a few ideas, and then you can go off and explore the city for all it's worth.</p>
+            <div class="active">
+                <h3>Bryant Park</h3>
+                <figure>
+                        <img src="../assets/images/bryant_park_terrace.jpg">
+                        <figcaption><cite>Photo by Krisztina Papp</cite></figcaption>
+                </figure>
+                <p>Bryant Park is not too far north of midtown and Penn Station where most tourists and travelers enter from. Not only can you have a lovely picnic on the main lawn on a sunny day, but the food stands there offer delicious treats all year round.</p>
+                <h3>Visit Governor's Island</h3>
+                <figure>
+                        <img src="../assets/images/governors_island.jpg">
+                        <figcaption><cite>Photo by EiOjoTorpe</cite></figcaption>
+                </figure>
+                <p>Governor's Island is a gem of a place just off the coast of Manhattan and Brooklyn, and it's a shame that not many people go there. Depending on the time of day, you can take a short 15 minute ferry ride from the Manhattan South Ferry location or from Brooklyn for free or sometimes a small fee. The island may be small, but it had been renovated not too long ago as a new project to reinvigorate tourism for the area. Now there're plenty of places to enjoy a walk, picnic, and even numerous food stalls. From time to time, music festivals are held here too, and you can experience a glamping ("glamour camping") weekend getaway in one of the many pre-set glamping spots on the island. Rent a bike from the island's bike rental, Blazing Saddles, and take some time to zoom through the entirety of the island and take in some fresh air and scenery.</p>
+                <h3>High Line + The Vessel</h3>
+                <figure>
+                        <img src="../assets/images/highline_1.jpg">
+                        <figcaption><cite>Photo by Iwan Baan</cite></figcaption>
+                </figure>
+                <p>The High Line was a community project that had begun years ago to transform an unused railway line into a local walkway and greenery scene. Beginning at Hudson Yards, Midtown, the Line goes through the Chelsea district for some time before gracefully allowing walkers to exit the raised walkway.</p>
+                <p>Seen right at the start of the High Line, The Vessel is an architectural marvel that had only been introduced to the city recently. Take some time to visit this structure if you plan to walk down the High Line, and perhaps even take a walk to the top of the Vessel to catch a glimpse of the view.</p>
+                <figure>
+                        <img src="../assets/images/the_vessel.jpg">
+                        <figcaption><cite>Photo by Evelyn Akhmerov</cite></figcaption>
+                </figure>
+                <h3>Union Square</h3>
+                <figure>
+                        <img src="../assets/images/union_square.jpeg">
+                        <figcaption><cite>Photo by Thivya Srikumar</cite></figcaption>
+                </figure>
+                <p>Unions Square is just a bit downtown, and is always bustling all times of the year. Whether it be activists, street performers, artists selling work, or the farmer's market, there is always something to see or taste.</p>
+            </div>
+            <!-- footer info -->
+            <hr>
+            <footer>Eve Cho &copy;2020 | <a href="../../index.html">Student Homepage</a></footer>  
+        </div>
+           
+    </body>
+</html>
