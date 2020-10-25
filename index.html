@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+- file: index.html
+- author: Eve Cho, eec5213
+- description: the main index file for project1: the homepage, in other words.
+-->
+<html lang=en id="page">
+    <!-- header info -->
+    <head>
+        <title>Home | NYC</title>
+        <meta charset="utf-8">
+        <script src="assets/javascript.js"></script>
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+    
+    <!-- nav bar -->
+    <div id="nav" class="nav">
+        <span class="close" onclick="closeNav();navIndexC();">&times;</span>
+        <img src="assets/images/title.png" alt="NYC" title="NYC logo" id="logo_nav">
+        
+        <a href="index.html">Home</a>
+        <a href="pages/history.html">History</a>
+        <a href="pages/food.html">Dining</a>
+        <div class="dropdown">
+            <a class="dropbtn">Things to Do</a>
+            <div class="dd-content">
+                <a href="pages/activities.html">Activities</a>
+                <a href="pages/attr.html">Attractions</a>
+                <a href="pages/central.html">Central Park</a>
+                <a href="pages/gall.html">Galleries</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">Planning Your Stay</a>
+            <div class="dd-content">
+                <a href="pages/maps.html">Maps</a>
+                <a href="pages/tips.html">Travel Tips</a>
+                <a href="pages/seasons.html">Seasonal Tips</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn">About</a>
+            <div class="dd-content">
+                <a href="pages/about.html">About Me/Contact</a>
+                <a href="pages/criteria.html">Criteria</a>
+                <a href="pages/cite.html">Resources</a>
+            </div>
+        </div>
+        <img src="assets/images/toggle_key.png" id="toggle1" onclick="mode();indexMode();">
+        
+    </div>
+        
+    <body>
+        <!-- actual content part -->
+        <div id="main" class="main">
+            <span class="menu" onclick="openNav();navIndex();">
+                &#9776; 
+            </span>
+            <img src="assets/images/title.png" alt="NYC" title="NYC logo" id="alt_logo">
+            <img src="assets/images/toggle_key.png" id="toggle2" onclick="mode();indexMode()">
+            <div>
+                <div id="overlay-text">
+                    <h1 id="heading">Welcome to New York City</h1>
+                    <h4 id="subheading">the city that never sleeps</h4>
+                </div>
+                <figure>
+                    <img src="assets/images/skyline_day.jpg" id="home">
+                    <figcaption><cite id="home_citation">Photo by Lukas Kloeppel</cite></figcaption>
+                </figure>
+            </div>
+            
+            <button id="toTop" onclick="top()" title="return to top"><img id="arrow" src="assets/images/up_arrow.png"></button>
+            
+            <p>I'm sure that when one hears "New York City," they first associate it with Times Square: bright lights, city night, with bustling and crowded streets that seem near impossible to navigate through. And it certainly is true that to those unfamiliar with this urban landscape, traversing it may be intimidating to say the least.</p>
+            <p>This is a New York City guide that will let you experience the city the right way, more like a local, rather than as a tourist getting dragged here and there to go on pricey tours and walks. Here, you'll get the chance to read about less-frequented food places, and the best parts of the city to relax.</p>
+            <p>Complete with a short history of the big city, this site offers a compilation of just a few of the city's most charming points, as well as tips on how to travel around the busy streets.</p>
+
+            
+            <!-- footer info -->
+            <hr>
+            <footer>Eve Cho &copy;2020 | <a href="../index.html">Student Homepage</a></footer>  
+        </div>
+           
+    </body>
+</html>
